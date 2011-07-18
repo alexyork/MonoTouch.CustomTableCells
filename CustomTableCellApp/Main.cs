@@ -18,6 +18,8 @@ namespace CustomTableCellApp
     {
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            window.AddSubview(tabBarController.View);
+            
             window.MakeKeyAndVisible();
             return true;
         }
