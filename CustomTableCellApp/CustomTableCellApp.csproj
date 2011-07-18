@@ -100,14 +100,30 @@
     <Compile Include="Tab1\CustomCell1.xib.designer.cs">
       <DependentUpon>CustomCell1.xib</DependentUpon>
     </Compile>
+    <Compile Include="Tab2\TableWithCorrectCustomCellsFromFactory.xib.cs">
+      <DependentUpon>TableWithCorrectCustomCellsFromFactory.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab2\TableWithCorrectCustomCellsFromFactory.xib.designer.cs">
+      <DependentUpon>TableWithCorrectCustomCellsFromFactory.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab2\CustomCell2.xib.cs">
+      <DependentUpon>CustomCell2.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab2\CustomCell2.xib.designer.cs">
+      <DependentUpon>CustomCell2.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab2\TableCellFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainWindow.xib" />
     <Page Include="Tab1\TableWithCorrectCustomCells.xib" />
     <Page Include="Tab1\CustomCell1.xib" />
+    <Page Include="Tab2\TableWithCorrectCustomCellsFromFactory.xib" />
+    <Page Include="Tab2\CustomCell2.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Tab1\" />
+    <Folder Include="Tab2\" />
   </ItemGroup>
 </Project>
