@@ -88,9 +88,26 @@
       <DependentUpon>MainWindow.xib</DependentUpon>
     </Compile>
     <Compile Include="Main.cs" />
+    <Compile Include="Tab1\TableWithCorrectCustomCells.xib.cs">
+      <DependentUpon>TableWithCorrectCustomCells.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab1\TableWithCorrectCustomCells.xib.designer.cs">
+      <DependentUpon>TableWithCorrectCustomCells.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab1\CustomCell1.xib.cs">
+      <DependentUpon>CustomCell1.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Tab1\CustomCell1.xib.designer.cs">
+      <DependentUpon>CustomCell1.xib</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainWindow.xib" />
+    <Page Include="Tab1\TableWithCorrectCustomCells.xib" />
+    <Page Include="Tab1\CustomCell1.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Tab1\" />
+  </ItemGroup>
 </Project>
