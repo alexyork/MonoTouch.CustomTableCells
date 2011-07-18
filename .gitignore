@@ -1,0 +1,7 @@
+# Files
+*.userprefs
+*.pidb
+
+# Folders
+bin
+obj
